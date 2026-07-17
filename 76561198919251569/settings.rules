@@ -16,16 +16,40 @@ GameSettings
 	MouseWheelZoomAtCursor = true
 	AutoTrackOnScreenShips = true
 	StickyFocus = true
-	DpiScaleMode = Dpi125
+	DpiScaleMode = Dpi100
 	DpiScaleModePerResolution
 	[
 		{
 			Key
 			{
-				X = 1280
-				Y = 720
+				X = 1600
+				Y = 1000
 			}
-			Value = Dpi125
+			Value = Dpi100
+		}
+		{
+			Key
+			{
+				X = 1280
+				Y = 1020
+			}
+			Value = Dpi100
+		}
+		{
+			Key
+			{
+				X = 1280
+				Y = 800
+			}
+			Value = Dpi100
+		}
+		{
+			Key
+			{
+				X = 1360
+				Y = 768
+			}
+			Value = Dpi100
 		}
 		{
 			Key
@@ -33,15 +57,7 @@ GameSettings
 				X = 1440
 				Y = 900
 			}
-			Value = Dpi125
-		}
-		{
-			Key
-			{
-				X = 1600
-				Y = 1000
-			}
-			Value = Dpi125
+			Value = Dpi100
 		}
 	]
 	AnimateBackgrounds = false
@@ -51,11 +67,11 @@ GameSettings
 	FancyUIEffects = false
 	FancyNebulas = false
 	UncompressedTextures = false
-	ResolutionScale = 1
-	PlanetResolutionScale = 1
+	ResolutionScale = 0.75
+	PlanetResolutionScale = 0.5
 	TargetFps = FpsTarget30
 	PostShaderIndex = 0
-	AllowShipDeselection = false
+	AllowShipDeselection = true
 	CtrlSelectsParts = true
 	EnableCollisionAvoidance = true
 	EnableHazardAvoidance = true
@@ -99,11 +115,11 @@ GameSettings
 	ShowFavoriteCrewNamesOnHover = true
 	LogFavoriteCrewDeaths = true
 	AutoSave = true
-	AutoSavesToKeep = 25
-	QuickSavesToKeep = 25
-	AutoSaveInterval = 300
+	AutoSavesToKeep = 10
+	QuickSavesToKeep = 10
+	AutoSaveInterval = 600
 	SaveLostShips = true
-	LostShipsToKeep = 25
+	LostShipsToKeep = 10
 	FtlAutoSave = true
 	ResourceDisplayMode = Context
 	ShowOnShipIndicators = true
@@ -120,10 +136,10 @@ GameSettings
 	PreferBorderlessWindowToggle = false
 	MasterVolume = 0.5
 	EffectsVolume = 1
-	MusicVolume = 0.4999999
+	MusicVolume = 0.49818182
 	InterfaceVolume = 1
 	MuteWhenUnfocused = false
-	PlayFriendlyPings = false
+	PlayFriendlyPings = true
 	PlayEnemyPings = true
 	ShowTutorials = true
 	AutoCollectNuggets = true
@@ -131,85 +147,7 @@ GameSettings
 	PaintSchemes[]
 	DefaultBuildTool = Grab
 	DefaultDecalTool = Grab
-	CodexPageStates
-	[
-		{
-			Key = welcome
-			Value
-			[
-				Shown
-				Seen
-				Hidden
-			]
-		}
-		{
-			Key = camera
-			Value
-			[
-				Shown
-				Hidden
-			]
-		}
-		{
-			Key = movement
-			Value
-			[
-				Shown
-				Seen
-				Hidden
-			]
-		}
-		{
-			Key = time
-			Value
-			[
-				Shown
-				Seen
-				Hidden
-			]
-		}
-		{
-			Key = comms
-			Value
-			[
-				Shown
-				Seen
-				Hidden
-			]
-		}
-		{
-			Key = missions
-			Value
-			[
-				Shown
-				Hidden
-			]
-		}
-		{
-			Key = missions2
-			Value
-			[
-				Shown
-				Hidden
-			]
-		}
-		{
-			Key = build
-			Value = Hidden
-		}
-		{
-			Key = build2
-			Value
-			[
-				Shown
-				Hidden
-			]
-		}
-		{
-			Key = crew
-			Value = Hidden
-		}
-	]
+	CodexPageStates[]
 	DontDimDialogBackgrounds = false
 	DontFlickerBlueprints = false
 	DontFlashRedprints = false
@@ -245,30 +183,30 @@ GameSettings
 	ShipLibraryLargeIcons = false
 	BreakFormationToAttack = true
 	DisplayAllShips = false
-	ShowAdvancedCommands = false
+	ShowAdvancedCommands = true
 	EnabledMods
 	[
-		"../../../../Games/Cosmoteer/Standard Mods/3599524621 MSA Career Addition"
-		"../../../../Games/Cosmoteer/Standard Mods/8_player_career"
-		"../../../../Games/Cosmoteer/Standard Mods/example_mod"
-		"../../../../Games/Cosmoteer/Standard Mods/example_translation"
-		"../../../../Games/Cosmoteer/Standard Mods/huge_crews"
-		"../../../../Games/Cosmoteer/Standard Mods/huge_ships"
+		"../../../../../Games/Cosmoteer/Standard Mods/3599524621 MSA Career Addition"
+		"../../../../../Games/Cosmoteer/Standard Mods/8_player_career"
+		"../../../../../Games/Cosmoteer/Standard Mods/example_mod"
+		"../../../../../Games/Cosmoteer/Standard Mods/example_translation"
+		"../../../../../Games/Cosmoteer/Standard Mods/huge_crews"
+		"../../../../../Games/Cosmoteer/Standard Mods/huge_ships"
 	]
 	AutoDisableMods = true
 	DeleteFileOnStartup
 	FeedbackEmail
 	DefaultCreativeModeMapSize = 0
 	DefaultCreativeModeSimGenFlags[]
-	DefaultCareerModeCombatDifficulty = 2
-	DefaultCareerModeEconDifficulty = 2
+	DefaultCareerModeCombatDifficulty = -1
+	DefaultCareerModeEconDifficulty = -1
 	DefaultCareerModeMapSize = 0
-	DefaultCareerModeCrewScarcity = 2
+	DefaultCareerModeCrewScarcity = -1
 	DefaultCareerModeDisableCrewConstruction = false
 	DefaultCareerModeDisableExploration = false
 	DefaultCareerModeDisableSalvaging = false
 	DefaultCareerModeDisableNebulas = false
-	DefaultCareerModeStarterShip = -1
+	DefaultCareerModeStarterShip = 0
 	DefaultMPJoinHostname
 	PlayerNameOverride
 	MPBlipColorMode = FriendAndFoe
@@ -308,121 +246,11 @@ GameSettings
 	LoadBlueprintResources = false
 	LoadBlueprintsFlightInfo = false
 	LoadBlueprintTextInfo = false
-	FavoriteParts
-	[
-		{
-			Key = 0
-			Value[]
-		}
-		{
-			Key = 1
-			Value[]
-		}
-		{
-			Key = 2
-			Value[]
-		}
-	]
-	FavoriteDecals
-	[
-		{
-			Key = 0
-			Value[]
-		}
-		{
-			Key = 1
-			Value[]
-		}
-		{
-			Key = 2
-			Value[]
-		}
-	]
+	FavoriteParts[]
+	FavoriteDecals[]
 	BuildStatToggleStates[]
 }
 InputSettings
-{
-	Game
-	{
-		DecreaseSpeed
-		{
-			Primary
-			{
-				Keys
-				[
-					Alt
-					Q
-				]
-				MouseButtons
-			}
-		}
-		IncreaseSpeed
-		{
-			Primary
-			{
-				Keys
-				[
-					Alt
-					E
-				]
-				MouseButtons
-			}
-		}
-	}
-	View
-	{
-		RotateLeft
-		{
-			Primary
-			{
-				Keys
-				[
-					Shift
-					Q
-				]
-				MouseButtons
-			}
-		}
-		RotateRight
-		{
-			Primary
-			{
-				Keys
-				[
-					Shift
-					E
-				]
-				MouseButtons
-			}
-		}
-	}
-	Design
-	{
-		RotateLeft
-		{
-			Primary
-			{
-				Keys
-				[
-					Q
-				]
-				MouseButtons
-			}
-		}
-		RotateRight
-		{
-			Primary
-			{
-				Keys
-				[
-					E
-				]
-				MouseButtons
-			}
-			Secondary
-		}
-	}
-}
 Window
 {
 	WindowedLocation
@@ -443,12 +271,12 @@ Window
 		Y = 900
 	}
 	FullscreenRefreshRate = 60
-	VSync = Off
+	VSync = OnDoubleBuffered
 	AntialiasMode = None
 	AdapterIndex = 0
 	MonitorIndex = 0
-	LimitFps = 30
-	LimitFpsUnfocused = 10
+	LimitFps = 0
+	LimitFpsUnfocused = 0
 }
 DebugMode = None
 Preferences
