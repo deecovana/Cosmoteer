@@ -1,0 +1,268 @@
+GameSettings
+{
+	LastGameVersion = 0.30.0e
+	IsFirstBoot = false
+	InitState = MainMenu
+	Language = ru
+	LockCursor = false
+	EdgePanMode = Analog
+	EdgePanSpeed = 15
+	KeyboardPanSpeed = 15
+	KeyboardZoomSpeed = 10
+	KeyboardRotSpeed = 90d
+	EnableMouseWheelZoom = true
+	InvertMouseWheelZoom = false
+	MouseWheelZoomSpeed = 1.12
+	MouseWheelZoomAtCursor = true
+	AutoTrackOnScreenShips = true
+	StickyFocus = true
+	DpiScaleMode = Dpi125
+	DpiScaleModePerResolution
+	[
+		{
+			Key
+			{
+				X = 1280
+				Y = 720
+			}
+			Value = Dpi125
+		}
+		{
+			Key
+			{
+				X = 1440
+				Y = 900
+			}
+			Value = Dpi125
+		}
+	]
+	AnimateBackgrounds = false
+	BackgroundGridStyle = Crosses
+	FancyLighting = false
+	FancyParticles = false
+	FancyUIEffects = false
+	FancyNebulas = false
+	UncompressedTextures = false
+	ResolutionScale = 1
+	PlanetResolutionScale = 1
+	TargetFps = FpsTarget30
+	PostShaderIndex = 0
+	AllowShipDeselection = false
+	CtrlSelectsParts = true
+	EnableCollisionAvoidance = true
+	EnableHazardAvoidance = true
+	EnableArrivalMatching = true
+	AutoRecallCrew = true
+	PreferBlueprintMode = false
+	BlueprintAutoPause = true
+	ShowInvalidBlueprints = true
+	ShowMissingPartsWarning = true
+	ShowAutoRemovedParts = true
+	ShowAutoRemovedDecals = true
+	BuildAutoRotate = true
+	BuildAutoInteriors = true
+	PaintAutoRotate = true
+	PaintAllowOverwrite = true
+	BuildAllowOverwrite = true
+	BuildAutoDoors = true
+	RequirePartialRefundConfirmation = true
+	BuildShowNearestPaths = true
+	BuildAllowInsufficientCommand = false
+	ShowStatBars = true
+	ConstructExitsBuild = false
+	CrewAutoRotate = true
+	ShowCrewPaths = true
+	ShowCrewHomes = true
+	ShowUnselectedCrewAssignment = true
+	DefaultRoles
+	ResourcesAutoRotate = true
+	ShowResourceCounts = true
+	ShowResourceTransfers = true
+	ShowConstructionResourceDeliveries = true
+	ShowAllResourceTypes = false
+	ShowUnselectedResourceAssignment = true
+	RowsOfParts = 1
+	GrabLeavesCorridors = true
+	RepairAutoDoors = true
+	DiscardBlueprintsWhenCanceling = true
+	PartToolTips = true
+	PartToolTipsDefaultToStats = false
+	SecondaryToolTips = false
+	ShowFavoriteCrewNamesOnHover = true
+	LogFavoriteCrewDeaths = true
+	AutoSave = true
+	AutoSavesToKeep = 25
+	QuickSavesToKeep = 25
+	AutoSaveInterval = 300
+	SaveLostShips = true
+	LostShipsToKeep = 25
+	FtlAutoSave = true
+	ResourceDisplayMode = Context
+	ShowOnShipIndicators = true
+	ShowZoomedOutBlips = true
+	ShowOffScreenBlips = true
+	ShowBreadcrumbTrails = true
+	AutoPauseOnLostFocus = true
+	AutoSlowWhenEnemySpotted = 1
+	ScreenShake = false
+	NuggetsDots = true
+	UIAnimations = false
+	ShowMidpointFocusWidget = true
+	DefaultScreenshotFormat = Jpeg
+	PreferBorderlessWindowToggle = false
+	MasterVolume = 0.5
+	EffectsVolume = 1
+	MusicVolume = 1
+	InterfaceVolume = 1
+	MuteWhenUnfocused = false
+	PlayFriendlyPings = false
+	PlayEnemyPings = true
+	ShowTutorials = true
+	AutoCollectNuggets = true
+	DefaultPaintScheme
+	PaintSchemes[]
+	DefaultBuildTool = Grab
+	DefaultDecalTool = Grab
+	CodexPageStates[]
+	DontDimDialogBackgrounds = false
+	DontFlickerBlueprints = false
+	DontFlashRedprints = false
+	PlayerColor
+	EnemyColor
+	AllyColor
+	NeutralColor
+	RotateMinimap = true
+	MiniviewInCombatMode = Auto
+	MiniviewNotInCombatMode = Auto
+	MiniviewLockRotation = false
+	MiniviewSize
+	ShowInteriors = false
+	ShowAllCommands = false
+	AlwaysShowCommandWidgets = false
+	ShowSelectedPartStatusBars = true
+	VelocityIndicatorDisplayMode = DirectControl
+	ShowSpaceCrewLines = true
+	ShowResourcePickupLines = true
+	PauseOnOpenDialogueWithEnemy = true
+	PauseWhenHailedByEnemy = false
+	PreferWorldRelativeAttackAngle = false
+	PreferWorldRelativeFollowAngle = false
+	DirectControlEnableWeapons = true
+	DirectControlAimAssist = true
+	DirectControlAutoBrake = true
+	DirectControlAutoFaceCursor = false
+	DirectControlViewFollowsCursor = false
+	DirectControlAutoRotateView = false
+	DirectControlLockCameraToShip = false
+	DirectControlAutoZoomView = false
+	DirectControlShowWeaponCoverage = false
+	ShipLibraryLargeIcons = false
+	BreakFormationToAttack = true
+	DisplayAllShips = false
+	ShowAdvancedCommands = false
+	EnabledMods
+	[
+		"../../../../Games/Cosmoteer/Standard Mods/3599524621 MSA Career Addition"
+		"../../../../Games/Cosmoteer/Standard Mods/8_player_career"
+		"../../../../Games/Cosmoteer/Standard Mods/example_mod"
+		"../../../../Games/Cosmoteer/Standard Mods/example_translation"
+		"../../../../Games/Cosmoteer/Standard Mods/huge_crews"
+		"../../../../Games/Cosmoteer/Standard Mods/huge_ships"
+	]
+	AutoDisableMods = true
+	DeleteFileOnStartup
+	FeedbackEmail
+	DefaultCreativeModeMapSize = 0
+	DefaultCreativeModeSimGenFlags[]
+	DefaultCareerModeCombatDifficulty = -1
+	DefaultCareerModeEconDifficulty = -1
+	DefaultCareerModeMapSize = 0
+	DefaultCareerModeCrewScarcity = -1
+	DefaultCareerModeDisableCrewConstruction = false
+	DefaultCareerModeDisableExploration = false
+	DefaultCareerModeDisableSalvaging = false
+	DefaultCareerModeDisableNebulas = false
+	DefaultCareerModeStarterShip = 0
+	DefaultMPJoinHostname
+	PlayerNameOverride
+	MPBlipColorMode = FriendAndFoe
+	MPShowDamagePoints = true
+	EnableDesyncDebugging = false
+	MaxSendRate = 1000
+	CustomRulesets[]
+	PreferLAN = false
+	PreferredLobbyType = CoOp
+	ShowNewsOnStartup = true
+	ShowTipsOnStartup = true
+	ReadNewsArticles[]
+	ShowNewsAlerts = true
+	HiddenNewsAlerts[]
+	MainMenuBackgroundIndex = 1
+	CycleMainMenuBackground = true
+	DefaultAuthorName = ""
+	MutedPlayers[]
+	BannedPlayers[]
+	EnableGifRecorder = false
+	GifRecorderSeconds = 10
+	GifRecorderFramerate = 20
+	GifRecorderResolution = 480
+	ShowNearbyMissionsCount = 3
+	DevModeSPRecording = false
+	DevModeSPRecordingAutoLoad = false
+	DevModeUseStaticCareerSeed = false
+	DevModeStaticCareerSeed = 0
+	KeepLogFiles = 10
+	KeepRecFiles = 10
+	RestoreZoomOnToolboxExit = true
+	ZoomOutOnFtl = true
+	LoadBlueprintPaint = false
+	LoadBlueprintRoles = false
+	LoadBlueprintReplaceInsteadOfAdd = false
+	LoadBlueprintCrew = false
+	LoadBlueprintResources = false
+	LoadBlueprintsFlightInfo = false
+	LoadBlueprintTextInfo = false
+	FavoriteParts[]
+	FavoriteDecals[]
+	BuildStatToggleStates[]
+}
+InputSettings
+Window
+{
+	WindowedLocation
+	{
+		X = 0
+		Y = 0
+	}
+	WindowedSize
+	{
+		X = 800
+		Y = 600
+	}
+	Maximized = false
+	Mode = BorderlessFullScreen
+	FullscreenResolution
+	{
+		X = 1440
+		Y = 900
+	}
+	FullscreenRefreshRate = 60
+	VSync = Off
+	AntialiasMode = None
+	AdapterIndex = 0
+	MonitorIndex = 0
+	LimitFps = 30
+	LimitFpsUnfocused = 10
+}
+DebugMode = None
+Preferences
+[
+	{
+		Key = HasPlayedDemo
+		Value
+		{
+			Type = "System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+			Value = false
+		}
+	}
+]
