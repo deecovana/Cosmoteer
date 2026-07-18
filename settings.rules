@@ -56,7 +56,7 @@ GameSettings
 	TargetFps = FpsTarget30
 	PostShaderIndex = 0
 	AllowShipDeselection = false
-	CtrlSelectsParts = true
+	CtrlSelectsParts = false
 	EnableCollisionAvoidance = true
 	EnableHazardAvoidance = true
 	EnableArrivalMatching = true
@@ -195,7 +195,11 @@ GameSettings
 		}
 		{
 			Key = build
-			Value = Hidden
+			Value
+			[
+				Shown
+				Hidden
+			]
 		}
 		{
 			Key = build2
@@ -207,7 +211,242 @@ GameSettings
 		}
 		{
 			Key = crew
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = combat
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = tactics
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = missions3
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = salvaging
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = ftl
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = cannons
 			Value = Hidden
+		}
+		{
+			Key = repairs
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = nebulas
+			Value = Hidden
+		}
+		{
+			Key = thrusters
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = fame
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = power
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = camera2
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = resources
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = techs
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = crew2
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = mining
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = crew3
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = command_points
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = paint
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = micro
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = missiles
+			Value = Hidden
+		}
+		{
+			Key = build3
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = movement2
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = tactics2
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = advanced_commands
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = heat
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = crew4
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = resources2
+			Value
+			[
+				Shown
+				Hidden
+			]
+		}
+		{
+			Key = crew5
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
+		}
+		{
+			Key = crew6
+			Value
+			[
+				Shown
+				Seen
+				Hidden
+			]
 		}
 	]
 	DontDimDialogBackgrounds = false
@@ -221,7 +460,7 @@ GameSettings
 	MiniviewInCombatMode = Auto
 	MiniviewNotInCombatMode = Auto
 	MiniviewLockRotation = false
-	MiniviewSize
+	MiniviewSize = 358
 	ShowInteriors = false
 	ShowAllCommands = false
 	AlwaysShowCommandWidgets = false
@@ -245,7 +484,7 @@ GameSettings
 	ShipLibraryLargeIcons = false
 	BreakFormationToAttack = true
 	DisplayAllShips = false
-	ShowAdvancedCommands = false
+	ShowAdvancedCommands = true
 	EnabledMods
 	[
 		"../../../../Games/Cosmoteer/Standard Mods/3599524621 MSA Career Addition"
@@ -283,7 +522,7 @@ GameSettings
 	ReadNewsArticles[]
 	ShowNewsAlerts = true
 	HiddenNewsAlerts[]
-	MainMenuBackgroundIndex = 1
+	MainMenuBackgroundIndex = 2
 	CycleMainMenuBackground = true
 	DefaultAuthorName = ""
 	MutedPlayers[]
